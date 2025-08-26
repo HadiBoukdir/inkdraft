@@ -6,6 +6,7 @@ from wagtail.models import Page
 
 
 def search(request):
+    """YES"""
     search_query = request.GET.get("query", None)
     page = request.GET.get("page", 1)
 
